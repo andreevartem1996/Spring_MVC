@@ -12,9 +12,9 @@
         <th>Series</th>
     </tr>
     <tr th:each="car : ${cars}">
-        <td th:each="${car.id}"></td>
-        <td th:each="${car.model}"></td>
-        <td th:each="${car.series}"></td>
+        <td th:utext="${car.id}"></td>
+        <td th:utext="${car.model}"></td>
+        <td th:utext="${car.series}"></td>
     </tr>
 </table>
 </body>

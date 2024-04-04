@@ -5,6 +5,7 @@ import web.model.Car;
 
 import java.util.ArrayList;
 import java.util.List;
+
 @Component
 public class CarServiceImp implements CarService {
     private List<Car> carList;
@@ -19,12 +20,18 @@ public class CarServiceImp implements CarService {
     }
 
     @Override
-    public List<Car> getNumberOfCars(int number) {
+    public List<Car> getNumberOfCars(Integer number) {
         List<Car> result = new ArrayList<>();
-        for (int i = 0; i < number && i < carList.size(); i++) {
-            result.add(carList.get(i));
+        if (number == null) {
+            for (int i = 0; i < carList.size(); i++) {
+                result.add(carList.get(i));
+            }
+            return result;
+        } else {
+            for (int j = 0; j < number && j < carList.size(); j++) {
+                result.add(carList.get(j));
+            }
+            return result;
         }
-        return result;
     }
-
 }

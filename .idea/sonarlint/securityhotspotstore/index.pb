@@ -5,21 +5,7 @@ C
 web/WEB-INF/web.xml,c\d\cdcc12da5c4054f6995aab32914d7e0243194c05
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-Y
-)src/main/java/web/service/CarService.java,e\e\ee206ebd073a01758df2bc76ade4eb43b1923263
-P
- src/main/java/web/model/Car.java,1\d\1da8a68372373d63d8e5bad0a446b1af9039bb32
 W
 'src/main/java/web/config/WebConfig.java,3\e\3efd7d6e4f4347a5e7aa33a6e6490dc8c1f9ed56
 U
 %src/main/java/web/config/AppInit.java,8\0\80eab4da9923cdcbe5b2defa94177731b9a847e5
-a
-1src/main/java/web/controller/HelloController.java,e\f\ef6e5829e13a1b2210c10163cf32eb47fd077f01
-S
-#src/webapp/WEB-INF/pages/index.html,c\d\cdc3599f1e9a5184dd1944b4ab31b6016e63a46f
-R
-"src/webapp/WEB-INF/pages/cars.html,4\8\4859eab7b0e83c9c499abc9541b15346ba2bf6b5
-_
-/src/main/java/web/controller/CarController.java,9\d\9d8431aac65983c4d9a1c8e2cd944b4867d1ec3f
-\
-,src/main/java/web/service/CarServiceImp.java,2\b\2baa02a74e5b5a8d5c355c5e3b47fb023aea1595
