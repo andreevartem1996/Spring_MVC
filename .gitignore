@@ -7,5 +7,5 @@
 /dataSources/
 /dataSources.local.xml
 .idea
-/web/WEB-INF/web.xml
+web/WEB-INF/web.xml
 /target
