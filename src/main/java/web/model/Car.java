@@ -10,4 +10,16 @@ public class Car {
         this.model = model;
         this.series = series;
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public int getSeries() {
+        return series;
+    }
 }
